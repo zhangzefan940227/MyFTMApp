@@ -2,4 +2,11 @@
     <string name="app_name">MyFTMApp</string>
     <string name="pass">PASS</string>
     <string name="fail">FAIL</string>
+    <string name="full_test">FULL TEST</string>
+    <string name="mmi1">MMI 1</string>
+    <string name="mmi2">MMI 2</string>
+    <string name="pcba_mmi">PCBA MMI</string>
+    <string name="item_test">Item Test</string>
+    <string name="test_report">Test Report</string>
+    <string name="check_tag">Check Tag</string>
 </resources>

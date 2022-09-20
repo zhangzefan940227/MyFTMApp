@@ -15,6 +15,13 @@
         android:theme="@style/Theme.MyFTMApp"
         tools:targetApi="31">
         <activity
+            android:name=".View.mainActivity.SingleTestActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".View.mainActivity.MainActivity"
             android:exported="true">
             <intent-filter>

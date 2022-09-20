@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowInsetsController;
 import android.view.WindowManager;
 import android.widget.Button;
 
@@ -96,7 +97,7 @@ public class BaseActivity extends AppCompatActivity implements View.OnClickListe
      */
     private void setWindowFlag() {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        WindowInsetsControllerCompat controller = ViewCompat.getWindowInsetsController(findViewById(R.id.base_item_layout));
+        WindowInsetsController controller = getWindow().getInsetsController();
         if (controller != null) {
             controller.hide(Type.statusBars());
             controller.hide(Type.navigationBars());
